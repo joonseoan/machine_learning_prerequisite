@@ -18,7 +18,7 @@ import numpy as np
 
 # Draw random samples from a normal (Gaussian) distribution.
 A = np.random.normal(25.0, 5.0, 10)
-print (A)
+print(A)
 
 print("")
 print("--------------- list ------------")
@@ -49,6 +49,7 @@ print("z: ", z)
 z.sort()
 print("z.sort(): ", z)
 
+# [IMPORTANT]
 z.sort(reverse=True)
 print("z.sort(reverse='True'): ", z)
 
@@ -102,12 +103,13 @@ def square(x):
 
 print(square(2))
 
-
+# [IMPORTANT]
 def callback_fun_example(func, x):
   return func(x)
 
 print(callback_fun_example(square, 3)) # 9
 
+# [IMPORTANT]
 # lambda functions let us inline simple function (kind of anonymous function?)
 # lambda x ==> def func(x)
 # : ===> return
@@ -119,6 +121,7 @@ print("")
 print("---------------------- Boolean -------------------")
 
 print("True or False:", True or False) # True (In any programming language, False can't run)
+# [IMPORTANT]
 # For operators like &&, ||, or !, 
 # we just use the words "and", "or", or "not" instead of special symbols
 print("1 is 3:", 1 is 3)

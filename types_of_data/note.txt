@@ -1,0 +1,20 @@
+- Major types of Data
+  . Numerical:
+        Quantitative measurement
+        (discrete data: countable, continuous data: not countable and also can be infinite)
+  . Categorical:
+        Quantitative data that has no inherent mathematical meaning
+        (Gender, y/n, Race, State of Residence, Product Category, etc.)
+        We can assign numbers to categorical data in order to represent them more compactly,
+        but the numbers don't have *** mathematical meaning ***
+  . Ordinal:
+        A mixture of numerical and categorical data
+        In this environment, the categorical data has mathematical meaning.
+        (For instance, movie rating on a 1 - 5 scale. these values have mathematical meaning: 1 means the worst)
+
+ - Mean, Median, and Mode
+    . Mean: AKA Average
+    . Median: *** Sort values ***, and take the value at the midpoint
+        If we have an even number of samples, take the average of the two in the middle.
+    . Mode: the most common value in a data set (Not related to continuous numerical data)
+        [0, 2, 3, 2, 1, 0, 0, 2, 0] ==>  0 is mode

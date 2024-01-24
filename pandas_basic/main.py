@@ -94,14 +94,14 @@ else:
     # print("df.sort_values(['Years Experience']):", df.sort_values(['Years Experience']))
 
     print(" --------------- Plot by using Value Count ------------------- ")
-    # degree_counts.plot(kind="bar")
+    # degree_counts.plot(kind="bar") ===> creating a graph
 
     print(" ---------------- Exercise =================================")
     data = df.head(6)
     data = data[["Previous employers", "Hired"]]
-
+    #
     data_count = data["Previous employers"].value_counts()
-    data_count.plot(kind="bar")  # Do not worry about the error.
+    # data_count.plot(kind="bar")  # Do not worry about the error. ===> creating a graph
 
 
 
