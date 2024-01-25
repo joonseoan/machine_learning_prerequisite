@@ -18,3 +18,4 @@
         If we have an even number of samples, take the average of the two in the middle.
     . Mode: the most common value in a data set (Not related to continuous numerical data)
         [0, 2, 3, 2, 1, 0, 0, 2, 0] ==>  0 is mode
+    . When there is no common element, it returns a minimum value
