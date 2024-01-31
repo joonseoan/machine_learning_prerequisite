@@ -33,7 +33,7 @@ print(np.mean(incomes))  # Definitely it has a big change
 print(np.median(incomes))  # Slightly different but almost same
 
 
-# It is required only when we use notebook
+# It is required only when we use jupyter notebook
 # If we miss this line, in notebook, it will not display the graphs
 # %matplotlib inline
 
