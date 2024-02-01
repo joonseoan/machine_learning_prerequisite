@@ -1,0 +1,27 @@
+ - Variance and Standard Deviation
+    . Variance measures how "spread-out" the data is.
+    . Variance is simply the average of the `squared` differences from the mean
+    . Example) What is the variance of the data set (1, 4, 5, 4, 8)?
+        - Mean: (1 + 4 + 5 + 4 + 8) / 5 = 4.4
+        - Find the difference from the mean: (-3.4, -0.4, 0.6, -0.4, 3.6)  ==> it should be like 1 - 4.4, 4 - 4.4...
+        - Find the squared differences: (11.56, 0.16, 0.36, 0.16, 12.96) ===> no negative number
+          . We should make sure that negative variances count just as much as positive variance
+            Otherwise, we would cancel each other out
+          . Also, we might want to give more weight to the outliers: In statistics,
+            an outlier is a data point that differs significantly from other observations.
+            An outlier may be due to a variability in the measurement, an indication of novel data, or it may be
+            the result of experimental error. So the squared difference amplifies the effect of things are very different
+            from the mean.
+        - Find the average of the squared differences: (11.56 + 0.16 + 0.36 + 0.16 + 12.96) / 5 = 5.04
+
+    . Standard Deviation is just the square root of the variance
+    . a = /5.04 = 2.24
+    . So the standard deviation of (1, 4, 5, 4, 8) is 2.24
+    . This is usually used as a way to identify outliers. Data points that lie more than one standard deviation
+      from the mean can be considered unusual.
+    . For instance, the outside data of 4.4 - 2.24 ~  4.4 + 2.24 are outliers.
+
+ - Working with the sample data
+    . Let's say it is the variance of the entire data set: (11.56 + 0.16 + 0.36 + 0.16 + 12.96) / 5 = 5.04
+    . If we want to use sample data, we just need to divide the squared variances by "N - 1"
+      : (11.56 + 0.16 + 0.36 + 0.16 + 12.96) / 4 = 6.3

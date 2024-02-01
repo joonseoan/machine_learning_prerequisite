@@ -1,0 +1,12 @@
+Probability Density Function (PDF) for continuous random variable definition:
+    - Probability Density Function gives us the probability of data point falling within some give range of
+        value occurring.
+    - The reason is because in normal distribution is using continuous data distribution, which means
+      there are infinite numbers. It never gets to 0.0. It gets to 0.01, 0.0001, 0.0000001 something like this.
+    - So in this case, if we don't assign the specific range, we can't get the value.
+    - Simple example, what percent of possibility in between mean and a standard deviation (it is a range)?
+
+Probability Mass Function (PMF) with discrete random variable:
+    - The discrete data: not continuous data. Each variable is not related to each other.
+    - So we do not think normal distribution in this case.
+    - Good example: https://blog.naver.com/curiouscalico/222412982258
