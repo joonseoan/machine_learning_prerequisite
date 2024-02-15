@@ -1,4 +1,6 @@
- - Variance and Standard Deviation
+https://blog.naver.com/istech7/50153739190
+
+- Variance and Standard Deviation
     . Variance measures how "spread-out" the data is.
     . Variance is simply the average of the `squared` differences from the mean
     . Example) What is the variance of the data set (1, 4, 5, 4, 8)?
@@ -21,7 +23,7 @@
       from the mean can be considered unusual.
     . For instance, the outside data of 4.4 - 2.24 ~  4.4 + 2.24 are outliers.
 
- - Working with the sample data
+- Working with the sample data
     . Let's say it is the variance of the entire data set: (11.56 + 0.16 + 0.36 + 0.16 + 12.96) / 5 = 5.04
     . If we want to use sample data, we just need to divide the squared variances by "N - 1"
       : (11.56 + 0.16 + 0.36 + 0.16 + 12.96) / 4 = 6.3
